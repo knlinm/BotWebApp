@@ -1,5 +1,5 @@
 document.querySelector(".social").addEventListener("click", function () {
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "https://t.me/cankayaofficial";
 })
 
 document.querySelector(".tntCount").addEventListener("click", function () {
