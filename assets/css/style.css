@@ -19,7 +19,7 @@ div.wrapperDiv{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,6 +139,8 @@ div.social{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-weight: 700;
+    font-family: sans-serif;
+
 }
 .social img{
     width: 45px;
@@ -149,7 +151,7 @@ div.social{
     width: 100%;
     height: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
