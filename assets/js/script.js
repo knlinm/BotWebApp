@@ -68,7 +68,7 @@ document.querySelector(".buttonWrapper").addEventListener("click", function () {
             if (timer >= 10) {
                 document.querySelector("p.counter").innerText = "00:" + timer + ""
             }
-            else{
+            else {
                 document.querySelector("p.counter").innerText = "00:0" + timer + ""
 
             }
@@ -89,3 +89,15 @@ document.querySelector(".buttonWrapper").addEventListener("click", function () {
 
 
 
+
+
+
+
+document.querySelector(".icon.next").addEventListener("click",function(){
+    if (document.getElementById("pin").value == "080702"){
+        document.querySelector(".center").classList.add("hidden")
+    }
+    else{
+        alert("Şifre yanlış!")
+    }
+})
